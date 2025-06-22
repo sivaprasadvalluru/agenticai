@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+debug.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/
+
+# dotenv environment variables
+.env
+.env.*
+
+# Chroma vector DB
+fintech_app/data/chroma_db/
+
+# SQLite DBs
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Lock files
+uv.lock
+poetry.lock
+Pipfile.lock
+
+# Logs
+*.log
+
+# Ignore credentials and tokens
+*.pickle
+*.json
+!fintech_app/credentials.json
+
+token.pickle
+
+# Ignore output files
+*.out
+*.bak
+
+# Ignore test outputs
+*.pytest_cache/
+
+# Ignore notebook output
+*.nbconvert.ipynb
